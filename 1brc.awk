@@ -11,7 +11,7 @@ BEGIN {
     if (max[$1] == "" || $2 > max[$1]) {
         max[$1] = $2;
     } else {
-    	if (min[$1] == "" || temp < min[$1]) {
+    	if (min[$1] == "" || $2 < min[$1]) {
         	min[$1] = $2;
     	}
     }
