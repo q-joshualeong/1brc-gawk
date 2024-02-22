@@ -1,0 +1,4 @@
+1029.03s user 
+5.03s system 
+99% cpu 
+17:15.61 total
